@@ -1,13 +1,12 @@
 # Da Feng Tang
 
-DaFengTang Official Website
+This is the Official Website DaFengTang. 
 
 ## Author
 
-  - Jaycee Li (Li Yi)
+* Jaycee Li (Li Yi)
 
 ## Table of Contents
-
 1. [Usage](#Usage)
 1. [Requirements](#requirements)
 1. [Development](#development)
@@ -21,30 +20,24 @@ DaFengTang Official Website
 > Some usage instructions
 
 ## Requirements
-
-- Node 6.4.x
-- Redis 2.6.x
-- MySQL 9.1.x
-- Babel-Core
-- React
--
+* node `^4.5.0`
+* yarn `^0.17.0` or npm `^3.0.0`
 
 ## Development
 
 ### Installing Dependencies
 
 From within the root directory:
-
 ```sh
-npm install -g bower
-npm install
-bower install
+$ yarn install    # Install project dependencies
 ```
 
 ### database creation
-postgres -D /usr/local/var/postgres
-createdb dft
-sequelize db:migrate
+```sh
+$ postgres -D /usr/local/var/postgres
+$ createdb dft
+$ sequelize db:migrate
+```
 
 ### Roadmap
 
